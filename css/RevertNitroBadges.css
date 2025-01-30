@@ -1,33 +1,21 @@
-/* Revert's new badges to old icon */
-/* Bronze Icon */
-img[src="https://cdn.discordapp.com/badge-icons/4f33c4a9c64ce221936bd256c356f91f.png"] {
+div[aria-label^="Subscriber since"] .badge__8061a {
     content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
 }
-/* Sliver Icon */
-img[src="https://cdn.discordapp.com/badge-icons/4514fab914bdbfb4ad2fa23df76121a6.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
+
+.tooltipContainer_f240e3 {
+    padding: 1px 1px !important;
+    background-color: var(--background-floating) !important;
 }
-/* Gold Icon */
-img[src="https://cdn.discordapp.com/badge-icons/2895086c18d5531d499862e41d1155a6.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
+
+.tooltipContainer_f240e3 > *:not(.tooltipDescription_f240e3) {
+    display: none !important;
 }
-/* Platinum Icon */
-img[src="https://cdn.discordapp.com/badge-icons/0334688279c8359120922938dcb1d6f8.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png")
+
+.tooltipPointer__382e7 {
+    display: none !important;
 }
-/* Diamond Icon */
-img[src="https://cdn.discordapp.com/badge-icons/0334688279c8359120922938dcb1d6f8.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png")
-}
-/* Emerald Icon */
-img[src="https://cdn.discordapp.com/badge-icons/11e2d339068b55d3a506cff34d3780f3.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png")
-}
-/* Ruby Icon */
-img[src="https://cdn.discordapp.com/badge-icons/cd5e2cfd9d7f27a8cdcd3e8a8d5dc9f4.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png")
-}
-/* Opal Icon */
-img[src="https://cdn.discordapp.com/badge-icons/5b154df19c53dce2af92c9b61e6be5e2.png"] {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png")
+
+.tooltipDescription_f240e3 {
+    font-weight: 500 !important;
+    font-size: 14px !important;
 }
