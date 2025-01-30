@@ -1,0 +1,4 @@
+/* removes discover button  working after discord nuke 29.01.25 */
+.footer__214dc {
+    display: none;
+  }

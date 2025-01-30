@@ -1,0 +1,16 @@
+/*Pastel Statuses working after discord nuke 29.01.25*/
+rect[fill='#23a55a'], svg[fill='#23a55a'] {
+    fill: #3f6333 !important;
+  }
+  rect[fill='#f0b232'], svg[fill='#f0b232'] {
+    fill: #574e26 !important;
+  }
+  rect[fill='#f23f43'], svg[fill='#f23f43'] {
+    fill: #360000 !important;
+  }
+  rect[fill='#80848e'], svg[fill='#80848e'] {
+    fill: #272020 !important;
+  }
+  rect[fill='#593695'], svg[fill='#593695'] {
+    fill: #451383 important;
+  }
