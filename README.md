@@ -1,1 +1,1 @@
-# my-discord-stuff
+# Vencord/Equicord plugins/userplugins along with discord CSS
