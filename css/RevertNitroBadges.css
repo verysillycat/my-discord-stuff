@@ -1,7 +1,4 @@
 /* Old fix via Cortex thanks <3
-.[aria-label^="Subscriber since"] .badge__8061a {
-    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
-}
 
 .tooltipContainer_f240e3 {
     padding: 1px 1px !important;
@@ -21,6 +18,11 @@
     font-size: 14px !important;
 } 
 */
+
+.[aria-label^="Subscriber since"] .badge__8061a {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
+}
+
 .tooltipWordmarkContainer_f240e3 {
        display: none;
        padding: 0;
